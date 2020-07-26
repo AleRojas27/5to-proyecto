@@ -1,13 +1,13 @@
-<div class="container">
+<div class="container mt-3">
 
     <div>
 
-        <h5> 
+        <h6> 
         
             <span class="float-right"> <i class="fas fa-times"></i> </span>
-            <b> AGREGAR OTRA DIRECCION </b> 
+            <b> AGREGAR OTRA DIRECCIÓN </b> 
         
-        </h5>
+        </h6>
 
     </div>
 
@@ -17,17 +17,17 @@
     
         <div class="col-6">
         
-            <p class="text-muted">Nombre</p>
+            <p class="mb-1 pt-3">Nombre</p>
 
-            <input type="text" class="form-control inputForm" placeholder="Escribe tu nombre...">
+            <input type="text" class="form-control inputObligatorio">
 
         </div>
 
         <div class="col-6">
 
-            <p class="text-muted">Apellidos</p>
+            <p class="mb-1 pt-3">Apellidos</p>
 
-            <input type="text" class="form-control inputForm" placeholder="Escribe tus apellidos...">
+            <input type="text" class="form-control inputObligatorio">
         
         </div>
 
@@ -37,33 +37,33 @@
     
         <div class="col-6">
         
-            <p class="text-muted">Telefono Celular</p>
+            <p class="mb-1 pt-4">Teléfono Celular</p>
 
-            <input type="text" class="form-control inputForm" placeholder="Escribe tu cel...">
+            <input type="text" class="form-control inputObligatorio">
 
         </div>
 
         <div class="col-6">
 
-            <p class="text-muted">Otro telefono (Opcional)</p>
+            <p class="mb-1 pt-4">Otro Teléfono (opcional)</p>
 
-            <input type="text" class="form-control inputForm" placeholder="Otro...">
+            <input type="text" class="form-control inputNoObligatorio">
         
         </div>
     
     </div>
 
-    <div class="form-inline">
+    <div class="form-inline mt-4 mb-2">
 
-        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-whatsapp mr-1 iconFormulario"></i>
 
         <form action="#">
 
-            <p>
+            <p class="noMargin textXl">
             
                 <label>
                 <span>Quiero recibir alertas sobre el estado de mi pedido por WhatsApp</span>
-                <input class="with-gap" name="group3" type="radio"  />
+                <input class="with-gap ml-1" name="group3" type="checkbox"  />
                 </label>
             
             </p>
@@ -76,25 +76,25 @@
     
         <div class="col-6">
 
-            <p class="text-muted">Calle</p>
+            <p class="mb-1">Calle</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputObligatorio">
         
         </div>
 
         <div class="col-3">
 
-            <p class="text-muted">N° Exterior</p>
+            <p class="mb-1">N° Exterior</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputObligatorio">
         
         </div>
 
         <div class="col-3">
 
-            <p class="text-muted">N° Interior</p>
+            <p class="mb-1">N° Interior (opcional)</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputNoObligatorio">
         
         </div>
     
@@ -104,18 +104,19 @@
     
         <div class="col-6">
 
-            <p class="text-muted">Codigo Postal</p>
+            <p class="mb-1 pt-4">Código Postal</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputObligatorio">
         
         </div>
 
         <div class="col-6">
 
-            <p class="text-muted">Estado</p>
+            <p class="mb-1 pt-4">Estado</p>
 
-            <select class="form-control">
+            <select class="form-control inputObligatorio colorNaranja">
             
+                <option value="">Seleccione un Estado</option>
                 <option> Estado de Mexico </option>
                 <option>San Luis Potosi</option>
                 <option>Cdmx</option>
@@ -131,10 +132,11 @@
     
         <div class="col-6">
 
-            <p class="text-muted">Ciudad</p>
+            <p class="mb-1 pt-4">Ciudad</p>
 
-            <select class="form-control">
+            <select class="form-control inputObligatorio colorNaranja">
             
+                <option value="">Seleccione una Ciudad</option>
                 <option>Ecatepec de Morelos</option>
                 <option>Azcapotzalco</option>
             
@@ -144,10 +146,11 @@
 
         <div class="col-6">
 
-            <p class="text-muted">Delegacion</p>
+            <p class="mb-1 pt-4">Delegación</p>
 
-            <select class="form-control">
+            <select class="form-control inputObligatorio colorNaranja">
             
+                <option value="">Seleccione una Delegación</option>
                 <option>Ecatepec de Morelos</option>
 
             </select>
@@ -160,10 +163,11 @@
     
         <div class="col-6">
 
-            <p class="text-muted">Colonia</p>
+            <p class="mb-1 pt-4">Colonia</p>
 
-            <select class="form-control">
+            <select class="form-control inputObligatorio colorNaranja">
             
+                <option>Selecione una Colonia</option>
                 <option>Ampliacion Joyas de Ecatepec</option>
                 <option>Fernando de Alba</option>
                 <option>Valle de Anahuac</option>
@@ -176,9 +180,9 @@
 
         <div class="col-6">
 
-            <p class="text-muted">Entre la calle (opcional)</p>
+            <p class="mb-1 pt-4">Entre la calle (opcional)</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputNoObligatorio">
         
         </div>
     
@@ -188,33 +192,33 @@
     
         <div class="col-6">
 
-            <p class="text-muted">Y la calle (opcional)</p>
+            <p class="mb-1 pt-4">y la calle (opcional)</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputNoObligatorio">
         
         </div>
 
         <div class="col-6">
 
-            <p class="text-muted">Instrucciones Especiales</p>
+            <p class="mb-1 pt-4">Instrucciones especiales (opcional)</p>
 
-            <input type="text" class="form-control">
+            <input type="text" class="form-control inputNoObligatorio">
         
         </div>
     
     </div>
 
-    <div class="form-inline">
+    <div class="form-inline mt-4 mb-2">
 
-        <i class="fas fa-map-marker-alt"></i>
+        <i class="fas fa-map-marker-alt mr-1 iconFormulario"></i>
 
         <form action="#">
 
-            <p>
+            <p class="noMargin textXl">
             
                 <label>
-                <span>Usar como direccion predeterminada</span>
-                <input class="with-gap" name="group3" type="radio"  />
+                <span>Usar como dirección predeterminada</span>
+                <input class="with-gap ml-1" name="group3" type="checkbox"  />
                 </label>
             
             </p>
@@ -222,14 +226,22 @@
         </form>
         
     </div>
-
-    <div class="float-right">
     
-        <button class="btn btn-block">
-            
-            Guardar Direccion
+    <div class="row">
 
-        </button>
+        <div class="col-6">
+
+        </div>
+
+        <div class="col-6">
+
+            <button class="btn btn-block btnGuardarDireccion">
+                
+                Guardar dirección
+
+            </button>
+
+        </div>
 
     </div>
 

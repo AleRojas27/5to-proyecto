@@ -1,0 +1,56 @@
+.noMargin{
+    margin: 0;
+}
+
+.inputObligatorio {
+
+    border: 1px #ff9900 solid;
+    background-color: #fff2e3;
+}
+
+.inputObligatorio:focus{
+
+    border: 1px #ff9900 solid;
+    background-color: #fff2e3;
+    box-shadow: none;
+
+}
+
+.inputNoObligatorio{
+
+    border: 1px #adadad solid;
+    background-color: #f5f5f5;
+}
+
+.inputNoObligatorio:focus{
+
+    border: 1px black solid;
+    background-color: white;
+    box-shadow: none;
+}
+
+.colorNaranja{
+
+    color:#ff9900;
+}
+
+.btnGuardarDireccion{
+
+    background-color: #f24d1b;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.iconFormulario{
+
+    font-size: 20px;
+    cursor: text;
+}
+
+.textXl{
+
+    font-size: 18px
+}
