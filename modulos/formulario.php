@@ -15,15 +15,15 @@
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
         
-            <p class="mb-1 pt-3">Nombre</p>
+            <p class="mb-1 pt-3 ">Nombre</p>
 
             <input type="text" class="form-control inputObligatorio">
 
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-3">Apellidos</p>
 
@@ -35,7 +35,7 @@
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
         
             <p class="mb-1 pt-4">Teléfono Celular</p>
 
@@ -43,7 +43,7 @@
 
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Otro Teléfono (opcional)</p>
 
@@ -55,26 +55,19 @@
 
     <div class="form-inline mt-4 mb-2">
 
-        <i class="fab fa-whatsapp mr-1 iconFormulario"></i>
-
-        <form action="#">
-
             <p class="noMargin textXl">
-            
-                <label>
+
+                <i class="fab fa-whatsapp mr-1 iconFormulario"></i>
                 <span>Quiero recibir alertas sobre el estado de mi pedido por WhatsApp</span>
                 <input class="with-gap ml-1" name="group3" type="checkbox"  />
-                </label>
-            
+                            
             </p>
-
-        </form>
         
     </div>
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1">Calle</p>
 
@@ -82,7 +75,7 @@
         
         </div>
 
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
 
             <p class="mb-1">N° Exterior</p>
 
@@ -90,7 +83,7 @@
         
         </div>
 
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
 
             <p class="mb-1">N° Interior (opcional)</p>
 
@@ -102,7 +95,7 @@
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Código Postal</p>
 
@@ -110,7 +103,7 @@
         
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Estado</p>
 
@@ -130,7 +123,7 @@
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Ciudad</p>
 
@@ -144,7 +137,7 @@
         
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Delegación</p>
 
@@ -161,7 +154,7 @@
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Colonia</p>
 
@@ -178,7 +171,7 @@
         
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Entre la calle (opcional)</p>
 
@@ -190,7 +183,7 @@
 
     <div class="row">
     
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">y la calle (opcional)</p>
 
@@ -198,7 +191,7 @@
         
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <p class="mb-1 pt-4">Instrucciones especiales (opcional)</p>
 
@@ -210,20 +203,13 @@
 
     <div class="form-inline mt-4 mb-2">
 
-        <i class="fas fa-map-marker-alt mr-1 iconFormulario"></i>
-
-        <form action="#">
-
             <p class="noMargin textXl">
             
-                <label>
+                <i class="fas fa-map-marker-alt mr-1 iconFormulario"></i>
                 <span>Usar como dirección predeterminada</span>
                 <input class="with-gap ml-1" name="group3" type="checkbox"  />
-                </label>
-            
+                
             </p>
-
-        </form>
         
     </div>
     
@@ -233,7 +219,7 @@
 
         </div>
 
-        <div class="col-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
             <button class="btn btn-block btnGuardarDireccion">
                 

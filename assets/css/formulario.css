@@ -60,3 +60,22 @@
 
     font-size: 18px
 }
+
+.textNaranja{
+
+    color: #ff9900;
+}
+
+.metodoPago{
+
+    font-size: 25px;
+
+}
+
+.metodoPago:hover{
+
+    cursor: pointer;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 5px;
+}
